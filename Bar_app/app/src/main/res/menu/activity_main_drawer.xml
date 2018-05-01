@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group  android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_favorit"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Favorite List" />
+
+    </group>
+
+    <group  android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/ic_phone_in_talk_black_24dp"
+            android:title="Emergency Call" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="Feedback"
+            />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share Location" />
+
+    </group>
+
+    <group  android:id="@+id/group3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Exit" />
+        <item
+            android:id="@+id/logOut"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Log out" />
+
+    </group>
+
+</menu>
